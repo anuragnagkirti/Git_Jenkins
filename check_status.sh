@@ -16,6 +16,7 @@ if [ "$RC" = "0" ];then
 	echo "........"
 	echo "........\n\n"
 	echo "`sudo systemctl status $SERVICE_NAME`"   ### Checking service status###
+	echo "\n\n\nFINISH\n\n\n"
 else
 	echo "$SERVICE_NAME servcice is not present on server"
 fi
